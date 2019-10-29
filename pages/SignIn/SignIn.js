@@ -13,7 +13,7 @@ import {
 } from '@material-ui/core';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
-import { Facebook as FacebookIcon, Google as GoogleIcon } from 'icons';
+import { Facebook as FacebookIcon, Google as GoogleIcon } from 'src/icons';
 
 const schema = {
   email: {
@@ -323,13 +323,13 @@ const SignIn = props => {
                   variant="body1"
                 >
                   Don't have an account?{' '}
-                  <Link
-                    component={RouterLink}
-                    to="/sign-up"
-                    variant="h6"
-                  >
-                    Sign up
-                  </Link>
+                  // <Link
+                  //   component={RouterLink}
+                  //   to="/sign-up"
+                  //   variant="h6"
+                  // >
+                  //   Sign up
+                  // </Link>
                 </Typography>
               </form>
             </div>

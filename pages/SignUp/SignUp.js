@@ -329,15 +329,15 @@ const SignUp = props => {
                     variant="body1"
                   >
                     I have read the{' '}
-                    <Link
-                      color="primary"
-                      component={RouterLink}
-                      to="#"
-                      underline="always"
-                      variant="h6"
-                    >
-                      Terms and Conditions
-                    </Link>
+                    // <Link
+                    //   color="primary"
+                    //   component={RouterLink}
+                    //   to="#"
+                    //   underline="always"
+                    //   variant="h6"
+                    // >
+                    //   Terms and Conditions
+                    // </Link>
                   </Typography>
                 </div>
                 {hasError('policy') && (
@@ -361,13 +361,13 @@ const SignUp = props => {
                   variant="body1"
                 >
                   Have an account?{' '}
-                  <Link
-                    component={RouterLink}
-                    to="/sign-in"
-                    variant="h6"
-                  >
-                    Sign in
-                  </Link>
+                  // <Link
+                  //   component={RouterLink}
+                  //   to="/sign-in"
+                  //   variant="h6"
+                  // >
+                  //   Sign in
+                  // </Link>
                 </Typography>
               </form>
             </div>
